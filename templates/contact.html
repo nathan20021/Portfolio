@@ -1,0 +1,53 @@
+{% extends 'base.html'%}
+
+{% block header %}
+    <nav>
+        <h2 class='logo'><a href="home">Nathan Luong</a></h2>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li> <a href="1p13">1P13</a></li>
+            <li><a href="contact"></a><button class="contact_button">Contact</button></li>
+            
+        </ul>
+    </nav>
+{% endblock %}
+
+{% block body %}
+
+<div class="container center_items">
+    <h2 class="underline">Physical Billing Address</h2>
+    <div class="info_container center_items">
+
+        <div class="billing_content_container">
+            <p>Eglinton Ave West, Mississauga,ON, Canada,L5M 0Y3</p>
+        </div>
+        <div class="billing_content_container">
+            <p>Quang Minh Optical Clinic, Hoang Thuc Tram, Hoa Cuong Bac, Hai Chau, Da Nang, Vietnam</p>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container center_items">
+    <h2 class="underline">Phone Numbers</h2>
+    <div id="phone_content_container" class="info_container center_items">
+        <div class="small_container">
+            <p>Canada: +1 647-674-6843</p>
+            <p>Vietnam: +84 091-341-7272</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="container center_items">
+    <h2 class="underline">Email Address</h2>
+    <div id="email_content_container" class="info_container center_items">
+        <div class="small_container">
+            <p>School: luongn4@mcmaster.ca</p>
+            <p>Personal: nhanto20021@gmail.com</p>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
